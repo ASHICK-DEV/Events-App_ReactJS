@@ -17,8 +17,12 @@
   padding: 0px;
   outline: none;
   cursor: pointer;
+  transition: 0.5s ease-in;
+  filter: grayscale(100%);
 }
-
+.event-button:hover {
+  filter: grayscale(0%);
+}
 .event-image {
   width: 100%;
   border: 2px solid transparent;
