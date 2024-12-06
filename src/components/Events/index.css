@@ -7,13 +7,20 @@
 .events-content {
   width: 60%;
   height: 100vh;
-  padding-top: 48px;
+  padding-top: 28px;
   padding-right: 4px;
   padding-bottom: 48px;
   padding-left: 48px;
   overflow-y: auto;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  margin-bottom: 28px;
+}
 .heading {
   color: #f8fafc;
   font-family: 'Roboto';
@@ -21,7 +28,12 @@
   font-weight: bold;
   line-height: 1.2px;
   margin: 0px;
-  margin-bottom: 48px;
+}
+
+.own {
+  color: white;
+  font-weight: 600;
+  padding-right: 44px;
 }
 
 .events-list {
